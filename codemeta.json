@@ -2,7 +2,7 @@
   "@context": "https://doi.org/10.5063/schema/codemeta-2.0",
   "@type": "SoftwareSourceCode",
   "name": "Open Problems Lab",
-  "description": "Independent AI-assisted problem-solving initiative founded by Zakk Easterbrook, covering practical, business, technical, mathematical and scientific challenges with transparent evidence and verification. Individual results are preliminary unless separately verified.",
+  "description": "An open, collaborative initiative for using AI, human insight, and rigorous investigation to solve problems across everyday life, business, engineering, technology, science, mathematics, and other fields. Contributions, reproducible evidence, and independent scrutiny are welcome. Individual results are preliminary unless separately verified.",
   "author": [
     {
       "@type": "Person",
@@ -15,14 +15,18 @@
   "dateCreated": "2026-11-24",
   "license": "https://spdx.org/licenses/Apache-2.0.html",
   "keywords": [
-    "mathematics",
     "artificial intelligence",
     "open problems",
-    "reproducible research",
-    "formal verification",
     "problem solving",
+    "open collaboration",
+    "reproducible research",
+    "innovation",
     "engineering",
-    "business innovation"
+    "mathematics",
+    "science",
+    "technology",
+    "business",
+    "practical solutions"
   ],
   "codeRepository": "https://github.com/zakkeasterbrook/open-problems-lab",
   "url": "https://github.com/zakkeasterbrook/open-problems-lab"

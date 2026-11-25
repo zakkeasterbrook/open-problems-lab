@@ -11,11 +11,17 @@ type: software
 url: "https://github.com/zakkeasterbrook/open-problems-lab"
 repository-code: "https://github.com/zakkeasterbrook/open-problems-lab"
 license: Apache-2.0
-abstract: "An independent initiative for practical, technical, business, mathematical and scientific problem solving with AI, domain-appropriate verification and transparent reporting. Individual findings are preliminary unless separately verified."
+abstract: "An open, collaborative initiative for using AI, human insight, and rigorous investigation to solve problems across everyday life, business, engineering, technology, science, mathematics, and other fields. Contributions, reproducible evidence, and independent scrutiny are welcome. Individual results are preliminary unless separately verified."
 keywords:
   - artificial intelligence
-  - mathematics
   - open problems
+  - problem solving
+  - open collaboration
   - reproducible research
-  - formal verification
-  - scientific computing
+  - innovation
+  - engineering
+  - mathematics
+  - science
+  - technology
+  - business
+  - practical solutions

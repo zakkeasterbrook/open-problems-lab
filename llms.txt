@@ -1,22 +1,24 @@
 # Open Problems Lab
 
-> Independent, founder-led AI-assisted problem-solving initiative founded by Zakk Easterbrook. Investigates practical, business, technical, scientific and mathematical problems. Focused on testable outcomes, appropriate evidence, reproducibility and transparent review status.
+> An open, collaborative AI-assisted problem-solving initiative for everyone. Investigates meaningful practical, business, technical, scientific, mathematical, engineering, educational and other questions with human insight, appropriate evidence, reproducibility and transparent review status.
+
+Anyone can propose problems, contribute approaches, test results, and report counterexamples. No particular AI model, professional credential, or commercial objective is required. Initial projects are illustrative, not a restriction on the lab's scope.
 
 ## Start here
 
-- [Research portfolio](RESEARCH.md): candidate findings, links, proof and review status.
-- [Machine-readable ledger](research/registry.json): structured research identities and limitations.
-- [Research protocol](governance/RESEARCH_PROTOCOL.md): evidence, novelty, corrections and review.
-- [Agent guide](AGENTS.md): scope and reproduction rules.
-- [Citation](CITATION.cff): attribution for the initiative.
-
-- [Problem intake](templates/PROBLEM.md): Record a founder-selected question and measurable success criteria.
-- [Commercialization policy](governance/COMMERCIALIZATION.md): Review confidentiality, disclosure and potential paid products before public release.
+- [Research portfolio](https://github.com/zakkeasterbrook/open-problems-lab/blob/main/RESEARCH.md): Candidate findings, project links, proof and review status.
+- [Machine-readable ledger](https://raw.githubusercontent.com/zakkeasterbrook/open-problems-lab/main/research/registry.json): Structured research identities and limitations.
+- [Research protocol](https://github.com/zakkeasterbrook/open-problems-lab/blob/main/governance/RESEARCH_PROTOCOL.md): Evidence, novelty, corrections and review.
+- [Agent guide](https://github.com/zakkeasterbrook/open-problems-lab/blob/main/AGENTS.md): Scope and reproduction rules.
+- [Contribution guide](https://github.com/zakkeasterbrook/open-problems-lab/blob/main/CONTRIBUTING.md): Ways to participate and credit contributors.
+- [Problem intake](https://github.com/zakkeasterbrook/open-problems-lab/blob/main/templates/PROBLEM.md): Record any meaningful question and its success criteria.
+- [Publication policy](https://github.com/zakkeasterbrook/open-problems-lab/blob/main/governance/COMMERCIALIZATION.md): Confidentiality, responsible disclosure and potential commercial applications.
+- [Citation](https://raw.githubusercontent.com/zakkeasterbrook/open-problems-lab/main/CITATION.cff): Attribution for the initiative.
 
 ## Research
 
-- [OPL-001: Prefix-reversal asymptotics](research/mathematics/prefix-reversal-asymptotics/paper.md): preliminary candidate proof of the interior generation criterion and leading asymptotic coefficients. Priority and independent review unverified.
-- [OPL-002: PA5](https://github.com/zakkeasterbrook/PA5): published selective KV retrieval prototype; see numerical audit and stated limitations.
-- [OPL-003: Adaptive Compute Barrier](https://github.com/zakkeasterbrook/PA5/tree/a916efe114992a5effcd05d7a8e7725867d4e650/research/adaptive-compute-barrier): preliminary minimax stopping theorem and conditional analysis of aggregate research data.
+- [OPL-001: Prefix-reversal asymptotics](https://github.com/zakkeasterbrook/open-problems-lab/blob/main/research/mathematics/prefix-reversal-asymptotics/paper.md): Preliminary candidate proof of the interior generation criterion and leading asymptotic coefficients. Priority and independent review unverified.
+- [OPL-002: PA5](https://github.com/zakkeasterbrook/PA5): Published selective KV retrieval prototype; see numerical audit and stated limitations.
+- [OPL-003: Adaptive Compute Barrier](https://github.com/zakkeasterbrook/PA5/tree/a916efe114992a5effcd05d7a8e7725867d4e650/research/adaptive-compute-barrier): Preliminary minimax stopping theorem and conditional analysis of aggregate research data.
 
-Use the original project's citations, source references and exact commit for specific claims. No DOI, priority or peer-review claim is made for this initiative.
+Open Problems Lab was founded by Zakk Easterbrook. Individual research authors, contributors and source researchers should be credited for their specific work. Use original project citations and exact commits. No DOI, priority or peer-review claim is made for the initiative.

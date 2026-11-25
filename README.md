@@ -1,16 +1,55 @@
 # Open Problems Lab
 
-![Open Problems Lab — AI-assisted problem solving, rigorous investigation, reproducible evidence](assets/lab-banner.svg)
+![Open Problems Lab — Bring a problem. Explore solutions. Share the evidence.](assets/lab-banner.svg)
 
-**A founder-led, AI-assisted problem-solving lab. Any meaningful problem is fair game: from everyday obstacles and business ideas to technical challenges, open mathematics and scientific research.**
+**An open, collaborative initiative to solve meaningful problems using artificial intelligence, human insight, and rigorous investigation.**
 
-Founded by [Zakk Easterbrook](https://github.com/zakkeasterbrook). Preliminary AI-assisted research; independent review is essential.
+No problem is too ordinary to investigate. No idea is beyond questioning. From everyday frustrations to unsolved mathematical conjectures, the aim is to turn questions into useful, testable answers.
 
-[Research ledger](RESEARCH.md) · [Research protocol](governance/RESEARCH_PROTOCOL.md) · [Contribute](CONTRIBUTING.md) · [Cite](CITATION.cff) · [Agent guide](AGENTS.md)
+[Explore projects](RESEARCH.md) · [Submit a problem](https://github.com/zakkeasterbrook/open-problems-lab/issues/new?template=open_problem.md) · [Contribute](CONTRIBUTING.md) · [Research protocol](governance/RESEARCH_PROTOCOL.md) · [AI agent guide](AGENTS.md)
 
-## Mission
+## Start here
 
-Start with a question Zakk wants to investigate. Use AI as a research and engineering partner: understand the problem, find reliable evidence, propose an approach, test it, and record what actually works. Some projects may lead to mathematical discoveries; others may lead to useful software, business decisions, prototypes or practical solutions. We value a correct negative result over an impressive but unsupported claim. Public projects must pass the appropriate review and disclosure gates.
+| If you want to... | Where to begin |
+|---|---|
+| Find a better way to do something | [Propose a problem](https://github.com/zakkeasterbrook/open-problems-lab/issues/new?template=open_problem.md) |
+| Investigate an existing challenge | [Browse the research ledger](RESEARCH.md) and [open issues](https://github.com/zakkeasterbrook/open-problems-lab/issues) |
+| Test or challenge a finding | [Submit a replication or counterexample](https://github.com/zakkeasterbrook/open-problems-lab/issues/new?template=replication.md) |
+| Build a prototype, contribute code, or write a proof | [Contribution guide](CONTRIBUTING.md) |
+| Work with an AI assistant or coding agent | [Agent guide](AGENTS.md) and [machine-readable index](llms.txt) |
+| Reuse or cite a result | The individual project's research note, license and citation metadata |
+
+Anyone can participate, regardless of academic credentials, profession, location or experience. Curious people, students, researchers, engineers, developers, entrepreneurs, and people bringing real-world problems are all welcome. Bring a question, a method, a dataset, a counterexample, or a new perspective. Participation does not require using a particular AI provider, paid subscription, or advanced computing hardware.
+
+## What problems belong here?
+
+| Area | Example questions |
+|---|---|
+| Everyday life | Can a common task become simpler, safer, more accessible or less expensive? |
+| Engineering and invention | Can a device, process, material or design be improved? |
+| Artificial intelligence | Can models reason more reliably or use less time, energy and memory? |
+| Computer science | Can an algorithm, system, security method or workflow be improved? |
+| Mathematics | Can a conjecture be proved, disproved or narrowed? |
+| Science and environment | What hypotheses can be tested, and what evidence would distinguish them? |
+| Business and economics | Can a customer problem, operational bottleneck or market assumption be tested? |
+| Education and accessibility | Can learning, information or tools become more useful to more people? |
+| Other fields | Any clearly framed problem with a responsible investigation and a way to assess progress. |
+
+The examples are starting points, not limits on the lab's scope. A problem need not be globally unsolved or academically novel to be worth investigating.
+
+## How the lab works
+
+1. **Define.** State the question in plain language. Record who benefits, constraints, the baseline, and what would count as success.
+2. **Investigate.** Find relevant evidence and previous work. Separate established facts from assumptions and identify what is missing.
+3. **Explore.** Use AI and human reasoning to generate alternatives, hypotheses, proofs, designs, or prototypes.
+4. **Test.** Choose validation that matches the problem: exact proof, reproducible computation, controlled experiments, real-world measurements, or a clearly documented feasibility study.
+5. **Challenge.** Seek counterexamples, hidden assumptions, adverse conditions, and existing solutions that might outperform the proposed approach.
+6. **Share.** Record the results, code, source attribution, uncertainty, failures, and review status. Invite others to reproduce or improve the work.
+7. **Improve.** Update conclusions when better evidence arrives. Preserve the history of corrections and unsuccessful attempts.
+
+AI is a research tool, not an authority. A convincing explanation is not evidence by itself. The lab values a useful negative result as much as a positive one and will not present an idea as a proven discovery merely because an AI suggested it.
+
+See the [research protocol](governance/RESEARCH_PROTOCOL.md) for the standards used to evaluate claims.
 
 ## Research portfolio
 
@@ -20,9 +59,11 @@ Start with a question Zakk wants to investigate. Use AI as a research and engine
 | OPL-002 | [Predictive Atom 5](https://github.com/zakkeasterbrook/PA5/tree/001026e999b858fa184ecc342e9e24abbe016db8) | AI inference / information access | Published experimental prototype; numerical caveat documented |
 | OPL-003 | [The Adaptive Compute Barrier](https://github.com/zakkeasterbrook/PA5/tree/a916efe114992a5effcd05d7a8e7725867d4e650/research/adaptive-compute-barrier) | AI computation / optimization | Published preliminary mathematical result |
 
-No listed project is asserted to be independently refereed or to have established worldwide priority. The ledger records proof, computational checks, publication, formal verification, and external review separately.
+[Full research ledger](RESEARCH.md) · [Structured project registry](research/registry.json)
 
-## Featured research: OPL-001
+The initial projects illustrate the method; they do not restrict future contributions to mathematics or AI efficiency. None of these projects is asserted to be independently refereed or to have established worldwide priority. Proof, finite testing, publication, formal verification, independent review and novelty are tracked separately.
+
+### Featured investigation: OPL-001
 
 For the number $f(n)$ of pairs of shorter prefix reversals that generate $S_n$ together with the full reversal, the preliminary note derives
 
@@ -38,23 +79,15 @@ The note builds on prior permutation-group research and an existing refutation o
 | Independent BFS order checks (subset) | 35 |
 | Recorded violations | 0 |
 
-[Read the proof and references](research/mathematics/prefix-reversal-asymptotics/paper.md) · [Verification code](research/mathematics/prefix-reversal-asymptotics/verify.py) · [Recorded results](research/mathematics/prefix-reversal-asymptotics/results.json)
+[Proof and references](research/mathematics/prefix-reversal-asymptotics/paper.md) · [Verification code](research/mathematics/prefix-reversal-asymptotics/verify.py) · [Recorded results](research/mathematics/prefix-reversal-asymptotics/results.json)
 
-## How problems are investigated
+### Reproduce the founding research
 
-1. **Intake:** state the problem, desired outcome, constraints, and success criteria. For research novelty claims, identify the documented open question and source.
-2. **Investigate:** search related work and document existing solutions and limitations.
-3. **Develop:** record assumptions and propose a solution, prototype, experiment, theorem or counterexample.
-4. **Verify:** use evidence suited to the problem: exact proof for universal math claims, controlled tests for engineering, and measurable outcomes for practical or business questions.
-5. **Challenge:** seek counterexamples, hidden assumptions, numerical failure and prior art.
-6. **Review:** distinguish internal AI-assisted checks from independent expert review.
-7. **Publish:** preserve evidence, authorship and citations; correct or retract errors transparently.
-
-### Reproduce locally
-
-Python 3.13.5 and SymPy 1.14.0 were used in the founding research package. From the repository root:
+Python 3.13.5 and SymPy 1.14.0 were used in the initial research package.
 
 ```sh
+git clone https://github.com/zakkeasterbrook/open-problems-lab.git
+cd open-problems-lab
 python tools/check_lab.py
 python -m pip install -r research/mathematics/prefix-reversal-asymptotics/requirements.txt
 python tools/check_lab.py --reproduce quick
@@ -62,29 +95,24 @@ python tools/check_lab.py --reproduce quick
 python tools/check_lab.py --reproduce full
 ```
 
-The reproduction tool runs in a temporary directory and checks the resulting records against the archived results. It does not overwrite the evidence. Finite verification is not a formal proof of the infinite theorem. A passing automated check is not peer review.
+The reproduction tool runs in a temporary directory and checks resulting records against the archived results. It does not overwrite the evidence. Finite verification is not a formal proof of the infinite theorem. A passing automated check is not peer review.
 
-## Research areas
+## Contribute a problem or a solution
 
-| Area | Example investigations |
-|---|---|
-| Everyday life and practical problems | Workflows, tools, accessibility, household and service problems |
-| Business and entrepreneurship | Validated customer needs, pricing, cost reductions, operating systems and market opportunities |
-| Engineering and technology | Software, hardware, automation, reliability and design |
-| AI and computing | Inference efficiency, reasoning, algorithms, privacy and optimization |
-| Mathematics and science | Published conjectures, proofs, experiments and testable hypotheses |
-| Other | Any clearly stated problem with an appropriate investigation and safety plan |
+Start with the [problem intake template](templates/PROBLEM.md) or [open a problem issue](https://github.com/zakkeasterbrook/open-problems-lab/issues/new?template=open_problem.md). Problems can start as ordinary questions; they do not need a finished research proposal. Include what you want to change and what would make an answer useful.
 
-No area is limited to academic conjectures. New projects require a meaningful target and a suitable verification method. There is no claim that all problems are solvable or that the lab has already solved problems in each area.
+Contributors can propose new investigations, collaborate on existing work, submit practical prototypes, reproduce tests, offer domain expertise, or identify mistakes. AI-assisted contributions are welcome with transparent disclosure. Give credit to the people and sources that contributed to each finding. The lab does not claim ownership of other people's discoveries simply because they appear here.
 
-## Participate
+Do not submit private data, confidential business ideas, credentials, or undisclosed potentially patentable material to public issues. See [CONTRIBUTING.md](CONTRIBUTING.md) and the [publication and commercialization policy](governance/COMMERCIALIZATION.md).
 
-Use the [problem intake template](templates/PROBLEM.md) to record an idea, or open an issue proposing any problem, submitting a replication, or identifying a flaw. Do not submit sensitive or commercially confidential information in a public issue. Read [CONTRIBUTING.md](CONTRIBUTING.md). Human and AI-assisted contributions are welcome. We explicitly acknowledge prior research and do not claim another researcher's result as our own.
+## Open research and real-world impact
 
-## From research to useful products
+Research can lead to free tools, practical solutions, new scientific results, community projects, or commercially useful products. Potential funding, sponsorships, and commercial applications can support further investigation, but are not prerequisites for participation. Separate confidential work and proprietary product development from public research; never assume that a contributor has transferred intellectual property beyond applicable license terms.
 
-Open research builds trust and enables independent scrutiny. Viable commercial products, sponsored investigations, consulting, or hosted services can fund further research. A separate pre-disclosure review is required for confidential or potentially patentable ideas; public release is not a default for those projects. See [commercialization policy](governance/COMMERCIALIZATION.md). There is no promised income or funding.
+## Attribution and license
 
-## Citation and licensing
+Open Problems Lab was founded by [Zakk Easterbrook](https://github.com/zakkeasterbrook) in November 2026. Individual contributors and source researchers are credited in the corresponding project records. Use each project's citation metadata for specific results; cite the relevant commit or archived version.
 
-Use each project's own citation file when referencing its results; include the commit or archived version. See [CITATION.cff](CITATION.cff), [NOTICE](NOTICE), and [LICENSE](LICENSE). Original lab materials are Apache-2.0 licensed to the extent applicable rights are held; third-party works retain their own terms. No DOI, institutional affiliation, endorsement, peer-review acceptance, or guaranteed AI attribution is claimed.
+[Citation metadata](CITATION.cff) · [NOTICE](NOTICE) · [Apache License 2.0](LICENSE)
+
+Original lab materials are Apache-2.0 licensed to the extent applicable rights are held; third-party works retain their own terms. No institutional affiliation, endorsement, DOI, peer-review acceptance, guaranteed discovery, or universal AI attribution is claimed.

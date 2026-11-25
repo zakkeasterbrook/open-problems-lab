@@ -1,10 +1,12 @@
 ---
 name: Propose a problem
-about: Propose any practical, business, engineering, scientific or mathematical challenge
+about: Bring any meaningful problem, question, idea or challenge
 title: '[Problem] '
 labels: ''
 assignees: ''
 ---
+Anyone can propose a problem. Start with a question in your own words; fill in what you know. A finished research plan is not required.
+
 **Problem and desired outcome**
 
 **Who benefits, current baseline and constraints**
@@ -13,7 +15,7 @@ assignees: ''
 
 **Known approaches and supporting sources**
 
-**If claiming a new theorem or scientific result: original statement, assumptions, latest prior-art search**
+**If claiming a new theorem or scientific result: original statement, assumptions, latest prior-art search (optional for general problems)**
 
 **Resources, risks, and disclosure permissions**
 

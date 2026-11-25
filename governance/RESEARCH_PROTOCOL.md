@@ -4,7 +4,7 @@
 
 ## Intake and evidence
 
-The lab accepts any founder-selected problem. Use [the problem template](../templates/PROBLEM.md). Begin with a measurable objective, context, constraints, data permissions, baseline and evidence appropriate to the domain. For private or potentially commercial material, review [disclosure policy](COMMERCIALIZATION.md) before any public commit.
+The lab welcomes problems proposed by anyone, across disciplines and experience levels. Public project selection is based on a clear question, feasibility, responsible scope, and an appropriate evidence plan. Use [the problem template](../templates/PROBLEM.md). Begin with a plain-language question, objective, context, constraints, data permissions, baseline and evidence appropriate to the domain. A preliminary question may enter discussion before the investigation plan is complete. For private or potentially commercial material, review [disclosure policy](COMMERCIALIZATION.md) before any public commit.
 
 ## Additional requirements for original scientific and mathematical claims
 
@@ -22,7 +22,7 @@ Use domain-appropriate validation. A practical or business proposal is not valid
 - **Independent verification:** prefer different algorithms or exact arithmetic; record disagreements. Distinguish internal replication from review by an external researcher.
 - **Formal verification:** state the proof assistant and dependencies. A checked lemma, a placeholder, an axiom assuming the conclusion, or a build with `sorry` is not a formal proof of the target.
 - **Novelty:** search original papers, follow-ups, errata and competing results; cite them. State the exact incremental contribution. A public timestamp alone is not priority or peer review.
-- **Publication:** include a concise abstract, proof, limits, data provenance, AI assistance disclosure, citation metadata, license and reproduction commands. Use a new version for corrections and keep earlier evidence visible.
+- **Publication:** include a concise abstract or summary, the appropriate proof or evaluation, limits, data provenance, AI assistance disclosure, actual contributor and source attribution, citation metadata, license and reproduction commands where applicable. Use a new version for corrections and keep earlier evidence visible.
 
 ## Safety and integrity
 

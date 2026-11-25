@@ -1,15 +1,16 @@
-## Research claim and project ID
+## Problem, project ID (if assigned), and proposed contribution
 
-## Prior art and source attribution
+## Existing approaches, sources and contributor attribution
 
-## Proof or counterexample
+## Solution, proof, prototype or investigation
 
-## Reproduction and evidence
+## Evaluation, evidence and reproduction (where applicable)
 
-## Limitations and AI assistance
+## Limitations, negative results and AI assistance
 
-- [ ] The claim and hypotheses are precise.
-- [ ] Existing results and authors are credited.
-- [ ] New code, tests and known failures are documented.
-- [ ] Claims of formal verification or external review are supported.
-- [ ] Ledger and citation metadata reflect the actual status.
+- [ ] The claim and success criteria are clear.
+- [ ] Existing results, source researchers and actual contributors are credited.
+- [ ] Evaluation matches the problem; code, tests and known failures are documented where relevant.
+- [ ] Claims of novelty, formal verification or independent review are supported if made.
+- [ ] Public disclosure and data permissions are appropriate.
+- [ ] The ledger and citation metadata reflect the actual status where applicable.

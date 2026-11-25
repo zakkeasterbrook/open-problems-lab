@@ -1,8 +1,9 @@
 # Problem intake
 
-Use this for any problem selected by the founder or proposed by a contributor. Keep confidential ideas outside the public repository until cleared for disclosure.
+Anyone can use this template for any meaningful problem. Start with the question and desired outcome; fill in technical details as the investigation develops. Keep confidential ideas outside the public repository until cleared for disclosure.
 
-- **Project ID / date:**
+- **Project ID / date (if assigned):**
+- **Proposer / contributors (optional public attribution):**
 - **Question in plain language:**
 - **Why it matters / intended beneficiary:**
 - **Category:** practical / business / engineering / AI / mathematics / science / other

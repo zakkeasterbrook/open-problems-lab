@@ -1,6 +1,6 @@
 # Commercialization and publication policy
 
-Open Problems Lab is a public research and problem-solving portfolio. It may also identify opportunities for future businesses, software, services, sponsorships, and applied research contracts. Income is not assumed or guaranteed.
+Open Problems Lab is a public, collaborative research and problem-solving initiative. Research may lead to public-interest solutions, community tools, future businesses, software, services, sponsorships, and applied research contracts. Participation does not require a commercial objective. Income is not assumed or guaranteed.
 
 ## Decide before disclosure
 
@@ -17,4 +17,4 @@ Open Problems Lab is a public research and problem-solving portfolio. It may als
 - Support, integration, training or commercial tooling around public software.
 - Eligible intellectual property licensed under separately reviewed terms.
 
-Validate customer demand, measurable value, costs, risks, and rights before investing. Do not imply that a mathematical proof or a successful synthetic test establishes product-market fit. Founder approval is required for spending, fundraising commitments, licenses outside the repository's public terms, or external agreements.
+Validate customer demand, measurable value, costs, risks, and rights before investing. Do not imply that a mathematical proof or a successful synthetic test establishes product-market fit. Relevant rights holders must authorize disclosure and any separate intellectual property arrangements. Spending, fundraising commitments, licenses outside the public repository's terms, and external agreements require authorization from the relevant parties; participation or maintainer review does not imply approval. Credit and rights remain governed by applicable law, licenses and explicit agreements. No special ownership of other contributors' work is asserted by the lab or its founder.
