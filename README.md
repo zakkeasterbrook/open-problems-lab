@@ -58,6 +58,7 @@ See the [research protocol](governance/RESEARCH_PROTOCOL.md) for the standards u
 | OPL-001 | [Asymptotic enumeration of generating triples of prefix reversals](research/mathematics/prefix-reversal-asymptotics/) | Combinatorics / group theory | Candidate proof; finite computational checks recorded |
 | OPL-002 | [Predictive Atom 5](https://github.com/zakkeasterbrook/PA5/tree/001026e999b858fa184ecc342e9e24abbe016db8) | AI inference / information access | Published experimental prototype; numerical caveat documented |
 | OPL-003 | [The Adaptive Compute Barrier](https://github.com/zakkeasterbrook/PA5/tree/a916efe114992a5effcd05d7a8e7725867d4e650/research/adaptive-compute-barrier) | AI computation / optimization | Published preliminary mathematical result |
+| OPL-004 | [Cazenave's spectral Randić conjecture](research/mathematics/cazenave-randic-spectral/) | Spectral graph theory | Candidate deduction of Conjecture 1 and both strengthenings; exact finite checks reproduced |
 
 [Full research ledger](RESEARCH.md) · [Structured project registry](research/registry.json)
 

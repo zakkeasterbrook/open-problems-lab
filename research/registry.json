@@ -47,6 +47,23 @@
       "priority": "unverified",
       "publication": "public_github",
       "caveat": "Conditional model and aggregate data analysis; not measured commercial savings."
+    },
+    {
+      "id": "OPL-004",
+      "title": "A resistance-based deduction of Cazenave's Randić spectral conjecture",
+      "field": "spectral graph theory",
+      "research_date": "2026-11-24",
+      "location": "research/mathematics/cazenave-randic-spectral/",
+      "status": "candidate_result",
+      "written_proof": true,
+      "finite_checks_recorded": true,
+      "formal_verification": "not_completed",
+      "independent_review": "pending",
+      "priority": "unverified",
+      "publication": "public_github",
+      "source": "https://arxiv.org/abs/2611.03879",
+      "external_dependency": "https://hexagonmath.org/2610.00305v1",
+      "caveat": "Deduction relies on the stated Shaik theorem; reported Lean formalization not replayed. 995 exact finite checks do not replace proof or independent review."
     }
   ],
   "scope": "Any meaningful problem proposed by anyone, including practical, business, engineering, technological, scientific, mathematical, educational and other challenges.",

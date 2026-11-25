@@ -7,8 +7,11 @@ The public ledger covers investigations proposed by anyone across any field, not
 | OPL-001 | 2026-11-24 | Interior generation criterion and four leading coefficients for prefix reversals | Written candidate proof; archived exact finite checks | Pending | Not completed | Unverified |
 | OPL-002 | 2026-11-24 | Decision-certified selective KV retrieval under stated real-arithmetic assumptions | Published PA5 proof, synthetic benchmarks and numerical erratum | Pending | Not completed | Unverified |
 | OPL-003 | 2026-11-24 | Sharp two-checkpoint minimax stopping boundary under stated assumptions | Published ACB proof, rational optimizer and conditional METR analysis | Pending | Not completed | Unverified |
+| OPL-004 | 2026-11-24 | Cazenave Conjecture 1 (#643) and both proposed strengthenings | Candidate deduction using Shaik's theorem; 995 exact graph checks reproduced | Pending | Not completed | Unverified |
 
 OPL-001: [source package](research/mathematics/prefix-reversal-asymptotics/). Its earlier related refutation and October 2026 group-theoretic results must be credited. OPL-002 and OPL-003 remain in their original PA5 repository; their records are linked rather than duplicated.
+
+OPL-004: [research note and verification](research/mathematics/cazenave-randic-spectral/). The conjecture and major external theorem are credited; no independent verification of the imported Lean result or priority is asserted.
 
 ## Status vocabulary
 

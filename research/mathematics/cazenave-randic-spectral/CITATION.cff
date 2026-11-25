@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "Cite this preliminary AI-assisted research note and the original conjecture and spectral theorem. Include the exact Git commit."
+title: "A resistance-based deduction of Cazenave's Randic spectral conjecture"
+authors:
+  - family-names: Easterbrook
+    given-names: Zakk
+version: 0.1.0
+date-released: 2026-11-24
+type: software
+url: "https://github.com/zakkeasterbrook/open-problems-lab/tree/main/research/mathematics/cazenave-randic-spectral"
+repository-code: "https://github.com/zakkeasterbrook/open-problems-lab"
+license: Apache-2.0
+abstract: "A candidate deduction of Cazenave Conjecture 1 (#643) and both strengthenings from Shaik's edge-localized spectral theorem, with exact finite checks. AI-assisted; independent review and priority pending."
+keywords:
+  - spectral graph theory
+  - Randic index
+  - effective resistance
+  - graph eigenvalues
+  - mathematical verification

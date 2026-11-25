@@ -30,3 +30,14 @@ jobs:
       - name: Check artifacts and run full verification
         if: ${{ github.event_name == 'workflow_dispatch' && inputs.full }}
         run: python tools/check_lab.py --reproduce full
+      - name: Install spectral graph dependencies
+        run: python -m pip install -r research/mathematics/cazenave-randic-spectral/requirements.txt
+      - name: Reproduce spectral graph finite verification
+        run: |
+          project="$GITHUB_WORKSPACE/research/mathematics/cazenave-randic-spectral"
+          (cd "$project" && sha256sum -c ARTIFACTS.sha256)
+          work="$(mktemp -d)"
+          trap 'rm -rf "$work"' EXIT
+          cp -a "$project/." "$work/"
+          python "$work/verify.py"
+          cmp "$project/results.json" "$work/results.json"
