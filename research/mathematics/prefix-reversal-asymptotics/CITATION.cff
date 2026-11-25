@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "Please cite this preliminary AI-assisted research note and separately cite its mathematical sources. Priority and peer review are unverified."
+title: "Asymptotic enumeration of generating triples of prefix reversals"
+authors:
+  - family-names: Easterbrook
+    given-names: Zakk
+version: "0.1.0"
+date-released: 2026-11-24
+type: software
+abstract: "Preliminary AI-assisted derivation of an interior generation criterion and exact leading asymptotic coefficients for prefix-reversal triples. Builds on earlier group-theoretic work and an existing conjecture refutation."

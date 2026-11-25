@@ -1,0 +1,22 @@
+{
+  "title": "Open Problems Lab: AI-assisted problem solving and research",
+  "creators": [
+    {
+      "name": "Easterbrook, Zakk"
+    }
+  ],
+  "description": "Independent AI-assisted problem-solving initiative founded by Zakk Easterbrook, covering practical, business, technical, mathematical and scientific challenges with transparent evidence and verification. Individual results are preliminary unless separately verified.",
+  "version": "0.1.0",
+  "upload_type": "software",
+  "access_right": "open",
+  "license": "apache-2.0",
+  "keywords": [
+    "mathematics",
+    "artificial intelligence",
+    "open problems",
+    "reproducible research",
+    "problem solving",
+    "engineering",
+    "business innovation"
+  ]
+}

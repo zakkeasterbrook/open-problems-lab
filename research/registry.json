@@ -1,0 +1,53 @@
+{
+  "schema_version": 1,
+  "project": "Open Problems Lab",
+  "founder": "Zakk Easterbrook",
+  "projects": [
+    {
+      "id": "OPL-001",
+      "title": "Asymptotic enumeration of generating triples of prefix reversals",
+      "field": "mathematics",
+      "research_date": "2026-11-24",
+      "location": "research/mathematics/prefix-reversal-asymptotics/",
+      "status": "candidate_result",
+      "written_proof": true,
+      "finite_checks_recorded": true,
+      "formal_verification": "not_completed",
+      "independent_review": "pending",
+      "priority": "unverified",
+      "publication": "public_github",
+      "source": "https://doi.org/10.46298/dmtcs.16975"
+    },
+    {
+      "id": "OPL-002",
+      "title": "Predictive Atom 5",
+      "field": "artificial intelligence",
+      "research_date": "2026-11-24",
+      "location": "https://github.com/zakkeasterbrook/PA5/tree/001026e999b858fa184ecc342e9e24abbe016db8",
+      "status": "published_preliminary",
+      "written_proof": true,
+      "finite_checks_recorded": true,
+      "formal_verification": "not_completed",
+      "independent_review": "pending",
+      "priority": "unverified",
+      "publication": "public_github",
+      "caveat": "Known float64 counterexample in original prototype; see AUDIT.md."
+    },
+    {
+      "id": "OPL-003",
+      "title": "The Adaptive Compute Barrier",
+      "field": "optimization",
+      "research_date": "2026-11-24",
+      "location": "https://github.com/zakkeasterbrook/PA5/tree/a916efe114992a5effcd05d7a8e7725867d4e650/research/adaptive-compute-barrier",
+      "status": "published_preliminary",
+      "written_proof": true,
+      "finite_checks_recorded": true,
+      "formal_verification": "not_completed",
+      "independent_review": "pending",
+      "priority": "unverified",
+      "publication": "public_github",
+      "caveat": "Conditional model and aggregate data analysis; not measured commercial savings."
+    }
+  ],
+  "scope": "Any founder-selected practical, business, technical, scientific or mathematical problem."
+}

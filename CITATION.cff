@@ -1,0 +1,21 @@
+# Cite individual research projects for specific results.
+cff-version: 1.2.0
+message: "Cite this research initiative or the individual project note, as appropriate; include the commit and acknowledge the original mathematical sources."
+title: "Open Problems Lab: AI-assisted problem solving and research"
+authors:
+  - family-names: Easterbrook
+    given-names: Zakk
+version: "0.1.0"
+date-released: 2026-11-24
+type: software
+url: "https://github.com/zakkeasterbrook/open-problems-lab"
+repository-code: "https://github.com/zakkeasterbrook/open-problems-lab"
+license: Apache-2.0
+abstract: "An independent initiative for practical, technical, business, mathematical and scientific problem solving with AI, domain-appropriate verification and transparent reporting. Individual findings are preliminary unless separately verified."
+keywords:
+  - artificial intelligence
+  - mathematics
+  - open problems
+  - reproducible research
+  - formal verification
+  - scientific computing
